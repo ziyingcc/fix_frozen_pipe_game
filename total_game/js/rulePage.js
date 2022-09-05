@@ -1,2 +1,0 @@
-// rule page js code
-
