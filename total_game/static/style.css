@@ -1,0 +1,206 @@
+.title {
+  background: url(../asset/titleFrostpipe.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.backg {
+  background: url(../asset/frostpunkBackground.jpeg) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#startGame {
+  /*text-align: center;*/
+  position: fixed;
+  /*display:inline-block;*/
+  top: 300px;
+  left: 900px;
+}
+#setting_window {
+  top: -555px;
+  height: 100%;
+  width: 297px;
+  float: right;
+  position: relative;
+  z-index: 99;
+  background-color: rgb(223, 221, 221);
+  font-family: 'Play', sans-serif;
+  padding: 15px;
+}
+.buttonStart {
+  background-color: CornflowerBlue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttonMenu {
+  background-color: CornflowerBlue;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+h2{
+  font-family: 'VT323', monospace;
+}
+.rules {
+  border: 1px blue;
+  background-color: rgba(3, 88, 153, 0.7);
+  /*opacity: 0.5;*/
+  color: white;
+  padding: 20px;
+  margin: 50px;
+  text-align: center;
+}
+.topPanel {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(128, 144, 169);
+  text-align: center;
+}
+.house {
+  /*text-align: center;*/
+
+  display: inline-block;
+  height: 100%;
+  width: 200px;
+}
+divLine {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #bbbbbb;
+}
+.gameBoard {
+  height: 85vh;
+  /*min-height: calc(100vh -100px);*/
+  background-color: rgb(1, 12, 24);
+  width: 100%;
+  /*position: relative;*/
+}
+
+p {
+  font-size: 20px;
+}
+
+#background {
+  display: inline-block;
+  height: 35%;
+  width: 1000px;
+  margin-left: -100px;
+  z-index: 2;
+  position: absolute;
+  top: -130px;
+}
+
+#house {
+  
+  height: 100%;
+  margin-left: -100px;
+  z-index: 0;
+}
+#soundBtn{
+  position: relative;
+  right: -525px;
+  top:-100px;
+}
+#exit{
+  position: relative;
+  right: -480px;
+  top:-90px;
+}
+
+#central {
+  position: absolute;
+  top: 250px;
+  left: 700px;
+  width: 600px;
+
+  margin-top: -100px;
+}
+
+.pump {
+  width: 70px;
+
+  position: relative;
+  right: -10px;
+  top:-10px;
+  
+  
+  z-index: 1;
+}
+.pipe0 {
+  width: 120px;
+  margin: -2px;
+  z-index: 1;
+  
+}
+.leaking {
+  position: absolute;
+}
+
+#set1 {
+  position: absolute;
+  top: 350px;
+}
+
+#set1M {
+  position: absolute;
+  top: 225px;
+}
+
+#set2M {
+  position: absolute;
+  top: 400px;
+}
+
+#actionPanel {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  top: 330px;
+  left: 600px;
+  border: 1px black;
+  z-index: 4;
+  position: absolute;
+  display: inline-block;
+}
+
+p {
+  font-size: 12pt;
+}
+
+
+.snowvideo1 {
+  position: absolute;
+}
+.snowvideo2 {
+  position: absolute;
+}
+.snowvideo3 {
+  position: absolute;
+}
+
+video {
+  mix-blend-mode: screen;
+  z-index: 10;
+  top: 30px;
+  left: 0px;
+}
